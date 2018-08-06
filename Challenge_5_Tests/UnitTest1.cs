@@ -6,12 +6,23 @@ namespace Challenge_5_Tests
     [TestClass]
     public class GreetingUnitTest
     {
-        private List<Greeting> _greeting = new List<Greeting>();
+        public class GreetingRepo = new GreetingRepo();
 
         [TestMethod]
-        public void TestMethod1()
+        public void 
         {
+            public void 
+            {
+                //--Arrange
+                List<Greeting> templist = greeting.GetList();
 
+                //--Act
+                int actual = templist.Count;
+                int expected = 4;
+
+                //--Assert
+                Assert.AreEqual(expected, actual);
+
+            }
         }
-    }
 }

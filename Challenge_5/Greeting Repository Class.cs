@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Challenge_5
 {
-    class Greeting_Repository_Class
+    class GreetingRepo
     {
         private List<Greeting> _greeting = new List<Greeting>();
 
@@ -23,14 +23,13 @@ namespace Challenge_5
         {
             _greeting.Remove(email);
         }
-        public List<Greeting> FindCustomerByName(string name)
-        {
+        
             {
             List<string> names = new List<string>();
             }
-            var findcustoemr = new Greeting();
+            var findcustomer = new Greeting();
 
-            foreach (var greeting in _greeting)
+            foreach (var greeting in g)
             {
                 if (name == greeting.FirstName)
                     FindCustomer = greeting;
